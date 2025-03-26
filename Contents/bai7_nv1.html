@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="utf8">
+  </head>
+  <style>
+    label {
+      font-size: 120%;
+      }
+  </style>
+  <body>
+    <h1> Đóng góp ý kiến cho thư viện nhà trường</h1>
+<ol>
+    <li><h2> Thông tin về người góp ý</h2></li>
+    <form action="bai7_nv3.html" method="POST">
+      <label> Họ và tên:<input type="text" id="txtTen" name="txtTen"></label><br>
+      <label> Địa chỉ email:<input type="text" id="email" name="email"></label><br>
+    <li><h2> Đóng góp ý kiến</h2></li>
+</ol>
+      <label> Ý kiến đóng góp:<textarea name="txtcomment" rows="6" cols="40"> </textarea></label><br>
+      <label>Thể loại cần bổ sung thêm sách:</label><br>
+        <input type="checkbox" name="chkTruyenNgan" value="Truyện ngắn"> Truyện ngắn<br>
+        <input type="checkbox" name="chkKyNang" value="Kỹ năng sống" > Kỹ năng sống<br>
+        <input type="checkbox" name="chkCNTT" value="Công nghệ thông tin"> Công nghệ thông tin<br>
+        <input type="checkbox" name="chkTruyenTranh" value="Truyện tranh"> Truyện tranh<br>
+        <input type="checkbox" name="chkLichSu" value="Lịch sử"> Lịch sử<br>
+    <br>
+      <input type="submit" value="Gửi góp ý">
+    </form>
+  </body>
+</html>
